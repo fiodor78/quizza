@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+    <versions>
+        <swc version="1.2"/>
+        <compiler name="ActionScript Compiler" version="2.0.0" build="354145"/>
+    </versions>
+    <features>
+        <feature-script-deps/>
+    </features>
+    <libraries>
+        <library path="library.swf">
+            <script name="com/freshplanet/ane/AirCrashlytics/AirCrashlytics" mod="1426519218000">
+                <def id="com.freshplanet.ane.AirCrashlytics:AirCrashlytics"/>
+                <dep id="Array" type="s"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Number" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.external:ExtensionContext" type="e"/>
+                <dep id="flash.system:Capabilities" type="e"/>
+                <dep id="int" type="s"/>
+                <dep id="trace" type="e"/>
+            </script>
+            <digests>
+                <digest type="SHA-256" signed="false" value="25192b9f6c1ccf778b0b9277707e777c39a32ffdf006d104eb05326c588a68d9"/>
+            </digests>
+        </library>
+    </libraries>
+</swc>

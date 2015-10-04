@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://ns.adobe.com/air/application/19.0">
+  <id>eu.ganymede.poollivepro</id>
+  <filename>quizza</filename>
+  <name>Quizza</name>
+  <versionNumber>1.0.7</versionNumber>
+  <initialWindow>
+    <aspectRatio>portrait</aspectRatio>
+    <fullScreen>true</fullScreen>
+    <autoOrients>false</autoOrients>
+    <visible>true</visible>
+    <renderMode>direct</renderMode>
+    <depthAndStencil>true</depthAndStencil>
+    <content>quizza.swf</content>
+  </initialWindow>
+  <supportedProfiles>desktop extendedDesktop mobileDevice extendedMobileDevice</supportedProfiles>
+  <iPhone>
+    <InfoAdditions><![CDATA[
+    <key>CrashlyticsAPIKey</key>
+  <string>408815164eddea08f0a81f1bb799c425d71de636</string>
+    <key>UIDeviceFamily</key>
+  <array>
+    <string>1</string>
+    <string>2</string>
+  </array>
+  <key>UIApplicationExitsOnSuspend</key>
+  <false />
+  <key>FacebookAppID</key>
+  <string>576621835708192</string>
+  <key>FacebookDisplayName</key>
+  <string>Quizza</string>
+  <key>CFBundleURLTypes</key>
+  <array>
+    <dict>
+      <key>CFBundleURLSchemes</key>
+      <array>
+        <string>fb576621835708192</string>
+      </array>
+    </dict>
+  </array>
+  <key>UIStatusBarStyle</key>
+  <string>UIStatusBarStyleBlackOpaque</string>
+  <key>UIRequiresPersistentWiFi</key>
+  <string>YES</string>]]></InfoAdditions>
+  </iPhone>
+  <extensions>
+    <extensionID>com.freshplanet.AirAlert</extensionID>
+    <extensionID>com.milkmangames.extensions.GoViral</extensionID>
+    <extensionID>com.freshplanet.AirCrashlytics</extensionID>
+  </extensions>
+</application>
+

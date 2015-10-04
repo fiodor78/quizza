@@ -1,0 +1,8 @@
+/Users/fiodor/Downloads/AIRSDK_Compiler-2/bin/adt
+-installApp
+-platform
+ios
+-device
+7
+-package
+/Users/fiodor/dev/workspace/quizza/bin/quizza.ipa

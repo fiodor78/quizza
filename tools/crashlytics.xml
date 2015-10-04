@@ -1,0 +1,10 @@
+<project name="Quizza" default="run-dsym">
+<target name="run-dsym">
+<exec executable="/bin/bash">
+	<arg value="run.sh"/>
+	<arg value="408815164eddea08f0a81f1bb799c425d71de636"/>
+	<arg value="../bin/quizza.ipa"/>
+	<arg value="./bins/quizza.app.dSYM"/>
+</exec>
+</target>
+</project>

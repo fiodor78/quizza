@@ -1,0 +1,3 @@
+AOTBuildOutput-0000000000_0.o
+AOTBuildOutput-0000000000_0_1.o
+aotInfo.o
